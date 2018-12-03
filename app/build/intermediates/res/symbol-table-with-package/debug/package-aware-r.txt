@@ -1343,6 +1343,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_navigation
 string action_settings
 string app_name
 string appbar_scrolling_view_behavior
