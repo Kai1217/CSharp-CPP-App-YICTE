@@ -22,3 +22,5 @@ function getOS()
     // TODO -> DISPLAY A MESSAGE ON THE WEBPAGE
   }
 }
+
+getOS();
