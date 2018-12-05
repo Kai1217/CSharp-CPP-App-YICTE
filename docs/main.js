@@ -5,6 +5,7 @@ function getOS()
 
   if (OSName == "Android")
   {
+    // PLACEHOLDER ALERT
     alert("You are on "+OSName);
     // TODO -> DISPLAY A MESSAGE ON THE WEBPAGE
   }
