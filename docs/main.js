@@ -13,7 +13,7 @@ function getOS()
   if (window.navigator.userAgent.indexOf("Linux") != -1) OSName="Linux";
   if (window.navigator.userAgent.indexOf("IOS") != -1) OSName="iOS";
   if (window.navigator.userAgent.indexOf("FreeBSD") != -1) OSName="FreeBSD";
-
+  console.log("The OS in use is "+OSName);
   // IF THE OS IS ANDROID, ALERT THE USER WITH A PLACEHOLDER ALERT BOX
   if (OSName == "Android")
   {
@@ -21,4 +21,4 @@ function getOS()
     alert("You are on "+OSName);
     // TODO -> DISPLAY A MESSAGE ON THE WEBPAGE
   }
-} 
+}
