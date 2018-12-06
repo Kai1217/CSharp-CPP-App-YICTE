@@ -23,4 +23,12 @@ function getOS()
   }
 }
 
+// GET BROWSER FUNCTION
+function getBrowser()
+{
+  var clientBrowser = "Unidentified Browser";
+}
+
+// EXECUTE FUNCTIONS IN RUNTIME THROUGH THE JAVASCRIPT FILE RATHER THAN THE HTML DOCUMENT
 getOS();
+getBrowser();
